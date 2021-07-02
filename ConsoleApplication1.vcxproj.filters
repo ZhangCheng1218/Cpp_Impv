@@ -13,22 +13,60 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\函数模板">
+      <UniqueIdentifier>{a77ec47b-54d0-4996-9536-ba555b93a72e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\类模板">
+      <UniqueIdentifier>{ba6f5947-9a42-49a9-ae82-29ea4507d597}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="01类模板基本语法.cpp">
+      <Filter>源文件\类模板</Filter>
+    </ClCompile>
     <ClCompile Include="01函数模板语法.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\函数模板</Filter>
     </ClCompile>
     <ClCompile Include="02函数模板注意事项.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\函数模板</Filter>
     </ClCompile>
     <ClCompile Include="03函数模板案例.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\函数模板</Filter>
     </ClCompile>
     <ClCompile Include="04普通函数和函数模板区别.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\函数模板</Filter>
     </ClCompile>
     <ClCompile Include="05普通函数和函数模板调用规则.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\函数模板</Filter>
     </ClCompile>
+    <ClCompile Include="06模板的局限性.cpp">
+      <Filter>源文件\函数模板</Filter>
+    </ClCompile>
+    <ClCompile Include="02类模板和函数模板区别.cpp">
+      <Filter>源文件\类模板</Filter>
+    </ClCompile>
+    <ClCompile Include="03类模板中成员函数创建时机.cpp">
+      <Filter>源文件\类模板</Filter>
+    </ClCompile>
+    <ClCompile Include="04类模板对象做函数参数.cpp">
+      <Filter>源文件\类模板</Filter>
+    </ClCompile>
+    <ClCompile Include="05类模板与继承.cpp">
+      <Filter>源文件\类模板</Filter>
+    </ClCompile>
+    <ClCompile Include="06类模板成员函数类外实现.cpp">
+      <Filter>源文件\类模板</Filter>
+    </ClCompile>
+    <ClCompile Include="07类模板分文件编写.cpp">
+      <Filter>源文件\类模板</Filter>
+    </ClCompile>
+    <ClCompile Include="08类模板和友元.cpp">
+      <Filter>源文件\类模板</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Person.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,9 +1,41 @@
-#include<iostream>
-#include<string>
-
-using namespace std;
-
-int main() 
-{
-	return 0;
-}
+//#include<iostream>
+//#include<string>
+//
+//using namespace std;
+//
+//
+///****************************************************
+//调用规则：
+//1、如果函数模板和普通函数都可以实现，优先调用普通函数
+//2、可以通过空模板参数列表来强制调用函数模板
+//3、函数模板也可以发生重载
+//4、如果函数模板可以产生更好的匹配，优先调用函数模板
+//*****************************************************/
+//
+//void add01(int a, int b)
+//{
+//	cout << "普通函数调用" << endl;
+//}
+//
+//template <class T>
+//void add01(T a, T b)
+//{
+//	cout << "模板函数调用" << endl;
+//}
+////重载模板函数
+//template <class T>
+//void add01(T a, T b, T c)
+//{
+//	cout << "模板函数的重载调用" << endl;
+//}
+//int main()
+//{
+//	int a = 10;
+//	int b = 15;
+//	add01(a, b);//优先调用普通函数
+//	add01<>(a,b);//利用空模板调用模板函数
+//	add01(a,b,1);//只有模板的重载有3个形参，调用函数模板的重载函数
+//	char m = 'a', n = 'b';
+//	add01(m, n);//普通函数有隐式转换但是编译器会找最优的，从而调的add01<char>
+//	return 0;
+//}

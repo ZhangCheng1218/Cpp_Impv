@@ -141,10 +141,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="01函数模板语法.cpp" />
+    <ClCompile Include="01类模板基本语法.cpp" />
     <ClCompile Include="02函数模板注意事项.cpp" />
+    <ClCompile Include="02类模板和函数模板区别.cpp" />
     <ClCompile Include="03函数模板案例.cpp" />
+    <ClCompile Include="03类模板中成员函数创建时机.cpp" />
     <ClCompile Include="04普通函数和函数模板区别.cpp" />
+    <ClCompile Include="04类模板对象做函数参数.cpp" />
     <ClCompile Include="05普通函数和函数模板调用规则.cpp" />
+    <ClCompile Include="05类模板与继承.cpp" />
+    <ClCompile Include="06模板的局限性.cpp" />
+    <ClCompile Include="06类模板成员函数类外实现.cpp" />
+    <ClCompile Include="07类模板分文件编写.cpp" />
+    <ClCompile Include="08类模板和友元.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Person.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
