@@ -1,2 +1,23 @@
-﻿  08类模板和友元.cpp
+﻿  01函数模板语法.cpp
+  01类模板基本语法.cpp
+  02函数模板注意事项.cpp
+  02类模板和函数模板区别.cpp
+  03函数模板案例.cpp
+  03类模板中成员函数创建时机.cpp
+  04普通函数和函数模板区别.cpp
+  04类模板对象做函数参数.cpp
+  05普通函数和函数模板调用规则.cpp
+  05类模板与继承.cpp
+  06模板的局限性.cpp
+  06类模板成员函数类外实现.cpp
+  07类模板分文件编写.cpp
+  08类模板和友元.cpp
+  MyArray.cpp
+C:\Users\Administrator\Documents\GitHub\Cpp_Impv\MyArray.cpp(9,23): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Administrator\Documents\GitHub\Cpp_Impv\MyArray.cpp(54,23): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Administrator\Documents\GitHub\Cpp_Impv\MyArray.hpp(27,24): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Administrator\Documents\GitHub\Cpp_Impv\MyArray.hpp(20): message : 在编译 类 模板 成员函数“MyArray<Person>::MyArray(const MyArray<Person> &)”时
+C:\Users\Administrator\Documents\GitHub\Cpp_Impv\MyArray.cpp(74): message : 查看对正在编译的函数 模板 实例化“MyArray<Person>::MyArray(const MyArray<Person> &)”的引用
+C:\Users\Administrator\Documents\GitHub\Cpp_Impv\MyArray.cpp(53): message : 查看对正在编译的 类 模板 实例化“MyArray<Person>”的引用
+  正在生成代码...
   ConsoleApplication1.vcxproj -> C:\Users\Administrator\Documents\GitHub\Cpp_Impv\Debug\Cpp_BliPrv.exe
